@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/Roboto/RobotoCondensed-Bold.ttf);
+}
+.container {
+    max-width: 1440px;
+    padding: 0 174px 0 166px;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.header_information_portal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+.red_word {
+    color: #9F0013;
+}
+.header_characters_comics {
+    display: flex;
+    margin-top: 5px;
+}
+.header_characters {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #9F0013;
+}
+.black {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0 8px;
+}
+.header_comics {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+
+
+    color: #000000;
+}
