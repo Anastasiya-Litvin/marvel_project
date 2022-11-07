@@ -4,6 +4,12 @@
     font-style: normal;
     src: url(../fonts/Roboto/RobotoCondensed-Bold.ttf);
 }
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/Roboto/RobotoCondensed-Regular.ttf);
+}
 .container {
     max-width: 1440px;
     padding: 0 174px 0 166px;
@@ -52,8 +58,120 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    
-
-
     color: #000000;
+}
+.title {
+    margin: 0 auto;
+    display: flex;
+}
+.card_title_white {
+    max-width: 550px;
+    display: flex;
+    padding: 35px 35px 35px 40px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.title_white_img {
+    max-width: 180px;
+}
+.title_white_inform {
+    margin-left: 30px;
+    height: 180px;
+}
+.white_inform_name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.white_inform_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+.white_inform_buttons {
+    display: flex;
+}
+.button_red {
+    padding: 11px 18px;
+    background: #9F0013;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 30px;
+    width: 101px;
+}
+.button_grey {
+    padding: 11px 37px;
+    background: #5C5C5C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.card_title_black {
+    max-width: 550px;
+    padding: 35px 35px 35px 40px;
+    background: #232222;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.random {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+.choose_another {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+.heros {
+    display: flex;
+    max-width: 650px;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+.card_hero {
+    width: 200px;
+    height: 318px;
+    background: #232222;
+}
+.hero_img {
+    max-width: 200px;
+    height: 200px;
+}
+.name_hero {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 15px 15px 0 15px;
 }
