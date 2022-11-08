@@ -7,8 +7,9 @@ async function getCharacter(){
 async function setChar(){
     const char = await getCharacter()
     const wrapper = document.createElement('div')
+    const main_block = document.getElementById('main')
     wrapper.className = 'heros'
-    document.body.append(wrapper)
+    main_block.append(wrapper)
     for (let i=0; i<9; i++){
         let obj = char.data.results
         let name = obj[i].name 
